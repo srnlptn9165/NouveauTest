@@ -48,6 +48,14 @@ a:hover {
     padding: 100px 50px;
 }
 
+.citation_texte{
+    font-style: italic;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -171,7 +179,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover {
-    color: rgb(0, 0, 0,);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel icon {
@@ -192,7 +200,7 @@ a:hover {
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-    color: rga(0, 0, 0);
+    color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
 }
 
@@ -694,10 +702,11 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
+
 .citation_texte {
     font-size: 14px;
-
 }
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -880,11 +889,13 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    /*
     .bloc {
-        
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right); 
     }
+    */
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -893,10 +904,11 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        
+        /*
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right); 
-    }
+    }*/
+}
 }
 
 @media (max-width: 767px) {
@@ -1048,5 +1060,5 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
+    } 
 }
