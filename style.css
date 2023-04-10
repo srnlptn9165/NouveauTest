@@ -52,7 +52,7 @@ a:hover {
     font-style: italic;
 }
 
-.capitalize {
+span .capitalize {
     text-transform: capitalize;
 }
 
