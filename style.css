@@ -1073,6 +1073,9 @@ h4 {
         border: 1px solid transparent;
         border-radius: 4px;
     }
+    .cta-hero {
+        font-size:12px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1080,7 +1083,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-
+    .cta-hero {
+        font-size:12px;
+    }
 }
 
 span .capitalize {
