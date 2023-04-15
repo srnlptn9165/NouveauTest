@@ -487,8 +487,9 @@ button {
 }
 
 .icon-md {
+    padding: 10px;
     font-size: 30px!important;
-}
+   }
 
 .icon-lg {
     font-size: 60px!important;
@@ -669,6 +670,11 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #F7F7F7!important;
+}
+.col-sm-4 li {
+    padding-bottom:10px ;
+    padding-right:15px;
+    padding-top:5px;
 }
 
 .container {
@@ -1094,6 +1100,7 @@ h4 {
         font-size:12px;
     }
 }
+
 
 span .capitalize {
     text-transform: capitalize;
