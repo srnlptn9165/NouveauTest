@@ -665,6 +665,12 @@ a {
     color: #575757!important;
 }
 
+.col-sm-4 a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #F7F7F7!important;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -788,7 +794,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #9A2F0E;
 }
 
 .tc-white {
@@ -796,7 +802,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #9A2F0E;
     color: #FFFFFF!important;
 }
 
@@ -841,6 +847,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
