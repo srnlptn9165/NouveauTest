@@ -113,8 +113,8 @@ span .capitalize {
 }
 
 .d-bloc button:hover {
-    /* color: rgba(255, 255, 255, .9); */
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .9); 
+    
 }
 
 .d-bloc .icon-round,
@@ -342,12 +342,12 @@ span .capitalize {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
+/*
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
 }
-
+*/
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -376,6 +376,9 @@ span .capitalize {
 a.nav_active {
     background-color:#fad3c0;
     transition:.5s;
+}
+.nav > li a:hover {
+    color: #484848;
 }
 
 @media (min-width: 768px) {
