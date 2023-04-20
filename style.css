@@ -373,6 +373,11 @@ span .capitalize {
     z-index: 2;
 }
 
+a.nav_active {
+    background-color:#fad3c0;
+    transition:.5s;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
